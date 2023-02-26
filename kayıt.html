@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Cars/Kayıt-Giriş</title>
+  <link rel="stylesheet" href="kayıt.css">
+  <link rel="icon" href="img/logo (2).ico" type="image/x-icon">
+</head>
+<body>
+<section class="forms-section">
+  <h1 class="section-title">Giriş Yap | Kayıt OL</h1>
+  <div class="forms">
+    <div class="form-wrapper is-active">
+      <button type="button" class="switcher switcher-login">
+       Giriş Yap
+        <span class="underline"></span>
+      
+      </button>
+
+      <form class="form form-login">
+        <fieldset>
+          <legend>
+            Lütfen giriş yapmak için e-posta adresinizi ve şifrenizi giriniz</legend>
+          <div class="input-block">
+            <label for="login-email">E-mail</label>
+            <input id="login-email" type="email" required>
+          </div>
+          <div class="input-block">
+            <label for="login-password">Şifre</label>
+            <input id="login-password" type="Şifre" required>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn-login">Kayıt Ol</button>
+      </form>
+    </div>
+    <div class="form-wrapper">
+      <button type="button" class="switcher switcher-signup">
+        Kayıt Ol
+        <span class="underline"></span>
+      </button>
+      <form class="form form-signup">
+        <fieldset>
+          <legend>Lütfen kayıt olmak için e-postanızı, şifrenizi ve şifre onayınızı girin</legend>
+          <div class="input-block">
+            <label for="signup-email">E-mail</label>
+            <input id="signup-email" type="email" required>
+          </div>
+          <div class="input-block">
+            <label for="signup-password">Şifre</label>
+            <input id="signup-password" type="Şifre" required>
+          </div>
+          <div class="input-block">
+            <label for="signup-password-confirm">Şifreyi Onayla</label>
+            <input id="signup-password-confirm" type="password" required>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn-signup">Kayıt Ol</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+<script src="kayıt.js"></script>
